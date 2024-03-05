@@ -87,10 +87,10 @@ class Customer_order:public Customer_details{
 				break;
 				
 			case 4:
-				cout<<"\n 1) VEG Roll Rs.70/-";
-				cout<<"\n 2) Tikk Roll Rs.60/-";
-				cout<<"\n 3) Poteto Roll Rs.75/-";
-				cout<<"\n 4) VEG Panner Roll Rs.100/-";
+					cout<<"\n 1) VEG Roll Rs.70/-";
+					cout<<"\n 2) Tikk Roll Rs.60/-";
+					cout<<"\n 3) Poteto Roll Rs.75/-";
+					cout<<"\n 4) VEG Panner Roll Rs.100/-";
 				
 				cout<<"\n Place Enter which roll you would like to have? :";
 				cin>>ch;
