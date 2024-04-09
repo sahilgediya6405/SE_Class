@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #71b7e6 , #9b59b6);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+ 
+   
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .form-group select,
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background:linear-gradient(135deg, #71b7e6 , #9b59b6);
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+    h3{
+        background:linear-gradient(135deg, #71b7e6 , #9b59b6); ;
+    }
+
+  </style>
+</head>
+<body>
+        
+  <form>
+    <h3>Registration:</h3>   
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter Your User Name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="ABC@gmail.com"   required>
+
+    <label for="Mobail No.">Mobail No:</label>
+    <input type="text" id="number" name="number" placeholder="+91 1234567890"     required>
+
+    <div class="form-group">
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    </div>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"  placeholder="Enetr Your Password"  required>
+
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" placeholder="Enter Your Comfirm-Password"    required>
+
+    <a href="9.1.html">
+    <button type="submit">Register</button></a>
+  </form>
+</body>
+</html>

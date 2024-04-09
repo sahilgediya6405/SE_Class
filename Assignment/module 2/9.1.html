@@ -1,0 +1,109 @@
+<!--External CSS-->
+<html>
+    <head>
+        <title>Extranal CSS</title>
+        <style>
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(235deg, rgb(9, 135, 207),rgb(32, 127, 182),rgb(169, 211, 235));
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: linear-gradient(235deg, rgb(143, 200, 233),rgb(32, 127, 182),rgb(5, 68, 105));
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.952);
+}
+
+h3 {
+    font-family: cursive;
+    background:linear-gradient(135deg, #71b7e6 , #07517c);
+    color: #020202;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+td {
+    padding: 2px;
+    font-family: cursive;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+input[type="checkbox"] {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background:linear-gradient(135deg, #71b7e6 , #07517c);
+    color: #030303;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+input[type="submit"]:hover {
+    background-color: #0aaffc;
+    
+}
+
+
+    </style>
+    </head>
+    <body>
+        <form>
+            <h3>Registration:</h3>
+            <table>
+                
+            <tr>
+                <td> Your name:</td><td><input type="textbox" name="name" placeholder="Enter Your Name" required></td>
+            </tr>
+
+            <tr>
+                <td>Username:</td>
+                <td><input type="textbox" name="name" placeholder="Enter Your Username" required></td>
+            </tr>
+
+            <tr>
+                <td>BOD:</td>
+                <td><input type="date" name="date"required></td>
+            </tr>
+
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="email" placeholder="ABC@gmail.com" required></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" placeholder="Enter Your Password" required></td>
+            </tr>
+
+            <tr>
+                <td>Cunform Password:</td>
+                <td><input type="password" name="password"  placeholder="Enter Your Cunform Password" required></td>
+            </tr>
+
+            <tr>
+              <td><input type="checkbox" required>Accepts all Terms of user & Privacy Policy</td>
+            </tr>
+            </table>
+            <input type="submit" value="Register">
+            </form>
+    </body>
+</html>
